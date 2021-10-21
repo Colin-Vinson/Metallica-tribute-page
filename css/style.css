@@ -7,14 +7,17 @@
 html, body{
     margin: 0;
     padding: 0;
-}
+}   
 
 .main-header{
     background-color: rgba(0,0,0,.3);
-    background-image: url(../images/header-background.jpg);
-    background-blend-mode: multiply;
-    background-size: cover;
     padding-bottom: 30px;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    margin: 10px;
 }
 
 .nav ul{
@@ -43,6 +46,12 @@ html, body{
     border-bottom: 1px solid rgba(255,255,255,.8);
 }
 
+#welcome-section{
+    background-image: url(../images/header-background.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+}
+
 .band-logo{
     text-align: center;
     margin: 0;
@@ -53,6 +62,20 @@ html, body{
 
 .band-logo-large{
     font-size: 8em;
+}
+
+.project1{
+    background-color: blue;
+    height: 350px;
+}
+.project2{
+    background-color: violet;
+    height: 350px;
+}
+
+.project3{
+    background-color: red;
+    height: 350px;
 }
 
 .main-footer{
